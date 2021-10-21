@@ -20,7 +20,7 @@ class StatsAlerter:
 
         if computedStats["max"] > self.maxThreshold:
             self.alerts[0].emailSent = True
-            self.alerts[0].ledGlows = True
+            self.alerts[1].ledGlows = True
 
 
 def calculateStats(numbers):
